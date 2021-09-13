@@ -316,7 +316,7 @@ flex-direction: column;
 }
 
 .parallax p {
-    font-size: 75px;
+    font-size: 55px;
     color: white;
 }
 
@@ -326,9 +326,12 @@ flex-direction: column;
     color: white;
 }
 
-@media screen and (max-width: 400px) {
+@media screen and (max-width: 500px) {
     .parallax p {
-        font-size: 55px;
+        font-size: 30px;
+    }
+    .parallax span {
+        font-size: 25px;
     }
 }
 
